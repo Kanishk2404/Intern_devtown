@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import NoteCard from './notecard';
 import NavigationBar from './nav';
-import NoteEditor from './editor';
+import NoteEditor from './edito';
 import './App.css';
 const App = () => {
   const [notes, setNotes] = useState([]);
